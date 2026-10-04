@@ -1,7 +1,7 @@
 # Sprint 2 Jira Report
 
 **Jira Project Name:** Honeypot-project (key: `HONEYPOT`)
-**Project Link:** https://honeypot-project.atlassian.net/jira/software/projects/HONEYPOT
+**Project Link:** https://honeypot-project.atlassian.net/jira/software/projects/HONEYPOT/boards/1
 **Sprint Name/Number:** Sprint 2 
 **Sprint Dates:** Sep 23, 2026 - Oct 6, 2026
 

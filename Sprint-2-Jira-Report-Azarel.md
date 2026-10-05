@@ -1,10 +1,10 @@
 # Sprint 2 – Jira Report
 
-**Jira project:** Honeypot-project (key `HONEYPOT`) – <https://honeypot-project.atlassian.net/jira/software/projects/HONEYPOT/boards/1>
-**Sprint:** Sprint 2 (Sprint ID 1)
-**Sprint Dates:** Sep 23, 2026 - Oct 6, 2026
-**Sprint goal:** Honeypot live on the VPS, data layer on Atlas, and hosting ready for the backend and dashboard.
-**Data pulled from Jira:** Oct 5, 2026
+   - **Jira project:** Honeypot-project (key `HONEYPOT`) – <https://honeypot-project.atlassian.net/jira/software/projects/HONEYPOT/boards/1>
+   - **Sprint:** Sprint 2 (Sprint ID 1)
+   - **Sprint Dates:** Sep 23, 2026 - Oct 6, 2026
+   - **Sprint goal:** Honeypot live on the VPS, data layer on Atlas, and hosting ready for the backend and dashboard.
+   - **Data pulled from Jira:** Oct 5, 2026
 
 ---
 

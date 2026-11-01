@@ -12,10 +12,10 @@
  
 | Metric | Count |
 |---|---|
-| Issues committed at sprint start | 6 |
-| Issues completed | 6 |
+| Issues committed at sprint start | 2 |
+| Issues completed | 4 |
 | Issues not completed | 0 |
-| Issues added mid-sprint | 0 |
+| Issues added mid-sprint | 6 |
  
 ---
  
@@ -23,7 +23,7 @@
  
 | Type | To Do | In Progress | Done |
 |---|---|---|---|
-| Story | 0 | 0 | 6 |
+| Story | 0 | 0 | 16 |
 | Task | 0 | 0 | 0 |
 | Bug | 0 | 0 | 0 |
   
@@ -33,8 +33,8 @@
  
 | Student | Issues Assigned | Issues Completed |
 |---|---|---|
-| Andrew Jakes | 6 | 6 |
-| Azarel | 0 | 0 |
+| Andrew Jakes | 2 | 2 |
+| Azarel | 4 | 4 |
  
 ---
  
@@ -42,8 +42,8 @@
  
 | Metric | Value |
 |---|---|
-| Total story points committed | 6 |
-| Total story points completed | 6 |
+| Total story points committed | 16 |
+| Total story points completed | 16 |
 | Completion % | 100% |
  
 ---
@@ -60,7 +60,7 @@ Short checklist — steps followed during the sprint:
 ## Blockers & Scope Changes
  
 - **Major blockers:** None recorded in Jira comments or issue history for this sprint.
-- **Scope changes:** None detected — no issues were added to or removed from the sprint after it started, based on changelog review.
+- **Scope changes:** Security documentation was added.
 - **Why work spilled over (if any):** N/A — all committed issues were completed within the sprint.
  
 ---

@@ -15,15 +15,15 @@
 |---|---|---|---|---|---|---|
 | HP-backend #12 | Added backend stuff for fixing frontend searching and filtering | https://github.com/Honeypot-Project-Organization/HP-backend/pull/12 | Andrew (CyberWzzard) | Azarel (Oz-ee) (approved) | Andrew (CyberWzzard) | 2026-10-30 |
 | HP-frontend #2 | Improved frontend filtering, searching, and added filter by date | https://github.com/Honeypot-Project-Organization/HP-frontend/pull/2 | Andrew (CyberWzzard) | Azarel (Oz-ee) (approved) | Azarel (Oz-ee) | 2026-10-30 |
-| HP-assets #9 | Added sprint 4 assets | https://github.com/Honeypot-Project-Organization/HP-assets/pull/9 | Andrew (CyberWzzard) | Azarel (Oz-ee) (approval pending) | Open (to be merged with the Sprint 4 video and these reports) | – |
+| HP-assets #9 | Added sprint 4 assets | https://github.com/Honeypot-Project-Organization/HP-assets/pull/9 | Andrew (CyberWzzard) | Azarel (Oz-ee) (approved) | Azarel (Oz-ee) | 2026-11-03 (10:29 PM CST; Nov 4 UTC) |
 
-**Total PRs reviewed:** 2 merged, plus HP-assets #9 still open
+**Total PRs reviewed:** 3, all merged
 
 Review notes:
 
 - **HP-backend #12:** Reviewed the server-side search, filters, date ranges, sorting and paging (HONEYPOT-217). Ran the backend test suite locally: 42 of 43 tests passed. The failing test (`test_attackers_filters_sort_and_total`) had a wrong expected value, not an API bug: `date_from` is inclusive and the seeded IP 10.0.0.11 sits exactly on the boundary. Fixed the test in HP-backend #13.
 - **HP-frontend #2:** Tested locally (selftest passes, production build succeeds), approved and merged. After merging, built the frontend against the live backend and deployed it to Firebase Hosting (HONEYPOT-218).
-- **HP-assets #9:** Sprint 4 deliverables on the `assets` branch: Andrew's GitHub and Jira reports, the static code analysis reports, the Sprint 4 video (`assets/videos/S4 Video Recording Honeypot.mp4`) and these reports.
+- **HP-assets #9:** Sprint 4 deliverables on the `assets` branch: Andrew's GitHub and Jira reports, the static code analysis reports, the Sprint 4 video (`assets/videos/S4 Video Recording Honeypot.mp4`) and these reports. Approved and merged after adding the video and these reports.
 
 ## Pull Requests Opened During Sprint 4
 
@@ -35,14 +35,18 @@ Review notes:
 
 | Date | Repo | Commit | Message |
 |---|---|---|---|
+| 2026-11-03 | HP-assets | 4c901c4 | Merge pull request #9 from Honeypot-Project-Organization/assets |
+| 2026-11-03 | HP-assets | 53297e4 | Add files via upload (these Sprint 4 GitHub and Jira reports) |
 | 2026-11-03 | HP-assets | 9f6cf0a | Add files via upload (Sprint 4 video as .mp4) |
 | 2026-11-03 | HP-assets | 042770e | Delete assets/videos/S4 Video Recording Honeypot.zip |
 | 2026-11-03 | HP-assets | 2a65f27 | Create S4 Video Recording Honeypot.zip |
 | 2026-10-30 | HP-frontend | fd79249 | Merge pull request #2 from Honeypot-Project-Organization/frontend |
 | 2026-10-30 | HP-backend | 7633354 | Fix attackers date-filter test expectation (include boundary IP) |
 
-- **Total number of commits:** 5 (plus the commit adding these reports)
+- **Total number of commits:** 7
 - **Date range:** 2026-10-30 – 2026-11-03
+
+> Correction (Nov 19): HP-assets #9 was first listed as open because this report was written before the merge; it was merged on Nov 3 (Nov 4 UTC). The merge and report-upload commits were added to the table.
 
 > Note: the Sprint 4 video was first uploaded as a .zip, then replaced with the .mp4 so it can be opened directly from GitHub.
 

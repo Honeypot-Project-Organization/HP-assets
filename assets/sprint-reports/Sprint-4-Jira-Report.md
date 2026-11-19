@@ -13,9 +13,9 @@
 | Metric | Count |
 |---|---|
 | Issues committed at sprint start | 2 |
-| Issues completed | 4 |
+| Issues completed | 6 |
 | Issues not completed | 0 |
-| Issues added mid-sprint | 6 |
+| Issues added mid-sprint | 4 |
  
 ---
  

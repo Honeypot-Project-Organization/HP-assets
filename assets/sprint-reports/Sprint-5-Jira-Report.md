@@ -4,7 +4,7 @@
 **Project Link:** https://honeypot-project.atlassian.net/jira/software/projects/HONEYPOT/boards/1
  
 **Sprint:** HONEYPOT Sprint 5
-**Sprint Dates:** Nov 3, 2026 – Nov 24, 2026 
+**Sprint Dates:** Nov 10, 2026 – Nov 24, 2026 
 
 ---
  
@@ -23,8 +23,8 @@
  
 | Type | To Do | In Progress | Done |
 |---|---|---|---|
-| Story | 0 | 0 | 15 |
-| Task | 0 | 0 | 0 |
+| Story | 0 | 0 | 3 |
+| Task | 0 | 0 | 3 |
 | Bug | 0 | 0 | 0 |
   
 ---

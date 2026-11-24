@@ -4,7 +4,7 @@
 - **Sprint:** Sprint 5 (Sprint ID 6)
 - **Sprint Dates:** Nov 10, 2026 – Nov 24, 2026 (started in Jira Nov 10 at 8:26 AM; ends Nov 24 at 11:00 PM)
 - **Sprint goal:** Finish and harden the project for the final presentation: MITRE ATT&CK mapping, least-privilege database access, the login-page notice, and documentation (READMEs, security and database docs, contracts) (no goal text was entered in Jira).
-- **Data pulled from Jira:** Nov 19, 2026
+- **Data pulled from Jira:** Nov 19, 2026; rechecked Nov 24 (no changes to Sprint 5 issues since Nov 19)
 
 ---
 
@@ -73,6 +73,7 @@ Issues in Sprint 5 at the time of this report:
 ## Blockers & Scope Changes
 
 - **Database storage limit (Nov 13):** the free Atlas tier hit its 512 MB limit and new events stopped being saved. Fixed the same day by dropping `raw_events` with Andrew's OK; tracked as HONEYPOT-225.
+- **Database storage limit again (late in the sprint):** Andrew found the dashboard login timing out because the database was at 516 of 512 MB. He dropped `raw_events` again and the dashboard worked afterward. He also saw a large spike in connection count on Nov 19 when he checked the dashboard. This is the second time this sprint; checking storage before the Dec 1 presentation is on our list.
 - **Failing test in the MITRE update:** HP-backend #14 brought back an old expected value in the date-filter test. Fixed on the PR's branch (`ac18456`) before merging.
 - **Role adjusted after a docs check (Nov 18):** comparing the live role with `docs/database-security.md` and the backend code showed the role allowed deletes and writes to the location data the API only reads, and lacked `createCollection`. Updated the role to match the docs; events kept arriving.
 - **Threat-intel endpoints (HONEYPOT-212):** removed from Sprint 5 by Andrew on Nov 6; on Nov 18 we agreed to keep it in the backlog for a possible next semester.

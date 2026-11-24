@@ -38,9 +38,10 @@ Review notes:
 
 | Date | Repo | Commit | Message |
 |---|---|---|---|
-| 2026-11-24 | HP-assets | – | Merge of HP-assets #11 (Sprint 5 videos and report fixes) |
-| 2026-11-24 | HP-assets | – | Upload of these updated Sprint 5 GitHub and Jira reports |
-| 2026-11-24 | HP-assets | – | Upload of my Sprint 5 video |
+| 2026-11-24 | HP-assets | a0b4d2a | Merge pull request #11 from Honeypot-Project-Organization/assets |
+| 2026-11-24 | HP-assets | fb26931 | Add files via upload (second upload of the same reports; no file changes) |
+| 2026-11-24 | HP-assets | 850dcc6 | Add files via upload (updated Sprint 5 GitHub and Jira reports) |
+| 2026-11-24 | HP-assets | 76b5e48 | Add files via upload (Sprint 5 video) |
 | 2026-11-19 | HP-assets | 63b8a14 | Fix Sprint 4 GitHub report: PR #9 merged |
 | 2026-11-19 | HP-assets | adaa87f | Add Azarel's Sprint 5 GitHub and Jira reports |
 | 2026-11-18 | HP-contracts | 8295910 | Revise MongoDB contract for production database |
@@ -50,10 +51,10 @@ Review notes:
 | 2026-11-13 | HP-backend | 23e33e1 | Security and database docs: custom role, temporary admin user, DB name fix |
 | 2026-11-13 | HP-backend | ac18456 | Restore date-filter test expectation (10.0.0.11 boundary) |
 
-- **Total number of commits:** 11
+- **Total number of commits:** 12
 - **Date range:** 2026-11-13 – 2026-11-24
 
-> Update (Nov 24): this report was first written on Nov 19, before HP-assets #10 was merged. HP-assets #10 is now marked merged, the two Nov 19 HP-assets commits were added, and the Sprint 5 video and HP-assets #11 were added, the same way the Sprint 4 report was corrected.
+> Update (Nov 24): this report was first written on Nov 19, before HP-assets #10 was merged. HP-assets #10 is now marked merged, the two Nov 19 HP-assets commits were added, and the Sprint 5 video and HP-assets #11 were added, the same way the Sprint 4 report was corrected. The Nov 24 commit hashes were filled in after HP-assets #11 was merged; that last correction commit is not counted above.
 
 > Note: the two HP-contracts commits fix `docs/environment.md` and `docs/database.md` so they match the live Atlas setup: the backend's database user has a custom role (not `readWrite`), the production database is `honeypot-project`, and the `app_meta` collection is listed.
 
